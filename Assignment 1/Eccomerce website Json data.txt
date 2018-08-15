@@ -1,0 +1,154 @@
+
+{
+	"Asus": [{
+		"Model": "Asus",
+		"Price": 2499,
+		"Capacity": "10400 mah",
+		"SuitableDevice": "Mobile",
+		"powerSupply": "AC 100-240V",
+		"outputPower": "5V 2A & 5V 2A",
+		"height" : "130mm",
+		"width" : "71mm"
+	}],
+	"Lenovo": [{
+		"Model": "Lenovo PA",
+		"Price": 1099,
+		"Capacity": "10000 mah",
+		"SuitableDevice": "Mobile",
+		"powerSupply": "AC 100-240V",
+		"outputPower": "5V 1A, 5V2A & 5V 2A",
+		"height" : "125mm",
+		"width" : "65mm"
+	}],
+
+	"Ambrane": [{
+			"Model": "Ambrane P-1310 NA",
+			"Price": 999,
+			"Capacity": "13000 mah",
+			"SuitableDevice": "Mobile",
+			"powerSupply": "AC 100-240V",
+			"outputPower": "5V 1A, 5V2A & 5V 2A",
+			"height" : "120mm",
+		    "width" :  "75mm"
+		},
+		{
+			"Model": "Ambrane K3 Knockout",
+			"Price": 1649,
+			"Capacity": "10000 mah",
+			"SuitableDevice": "Mobile",
+			"powerSupply": "AC 100-240V",
+			"outputPower": "5V 1A, 5V2A & 5V 2A",
+			"height" : "130mm",
+		    "width" :  "68mm"
+		}
+	],
+
+	"Mi": [{
+			"Model": "Mi PLM02ZM ",
+			"Price": 1999,
+			"Capacity": "10000mah",
+			"SuitableDevice": "Mobile",
+			"powerSupply": "AC 100-240V",
+			"outputPower": "5V 1.5A & 5V 2A",
+			"height" : "135mm",
+		    "width" :  "60mm"
+		},
+		{
+			"Model": "Mi PLM05ZM",
+			"Price": 2199,
+			"Capacity": "20000 mah",
+			"SuitableDevice": "Mobile",
+			"powerSupply": "AC 100-240V",
+			"outputPower": "5V 1A, 5V2A & 5V 2A",
+			"height" : "110mm",
+	    	"width" :  "89mm"
+		}
+	],
+
+	"Sony": [{
+			"Model": "Sony CP-V9",
+			"Price": 1899,
+			"Capacity": "8700 mah",
+			"SuitableDevice": "Mobile",
+			"powerSupply": "AC 100-240V",
+			"outputPower": "5V 2A & 5V 2A",
+			"height" : "131mm",
+		    "width" :  "79mm"
+		},
+		{
+			"Model": "Sony CP-S15",
+			"Price": 4999,
+			"Capacity": "15000 mah",
+			"SuitableDevice": "Mobile",
+			"powerSupply": "AC 100-240V",
+			"outputPower": "5V 2A & 5V 3A",
+			"height" : "110mm",
+		    "width" :  "94mm"
+		}
+	],
+
+	"Intex": [{
+			"Model": "Intex IT-PBB 2K Plug & Play",
+			"Price": 349,
+			"Capacity": "2000 mah",
+			"SuitableDevice": "Mobile",
+			"powerSupply": "AC 100-240V",
+			"outputPower": "5V 1A, 5V2A & 5V 2A",
+			"height" : "100mm",
+		    "width" :  "68mm"
+		},
+
+		{
+			"Model": "Intex IT-PB11K",
+			"Price": 999,
+			"Capacity": "11000 mah",
+			"SuitableDevice": "Mobile",
+			"powerSupply": "AC 100-240V",
+			"outputPower": "5V 1A, 5V2A & 5V 2A",
+			"height" : "130mm",
+		    "width" :  "89mm"
+		},
+		{
+			"Model": "Intex IT-PB 20K Poly",
+			"Price": 1799,
+			"Capacity": "20000 mah",
+			"SuitableDevice": "Mobile",
+			"powerSupply": "AC 100-240V",
+			"outputPower": "5V 1A, 5V2A & 5V 2A",
+			"height" : "135mm",
+		    "width" :  "78mm"
+		}
+	],
+
+	"Syska": [{
+			"Model": "Syska Power Boost ",
+			"Price": 899,
+			"Capacity": "10000 mah",
+			"SuitableDevice": "Mobile",
+			"powerSupply": "AC 100-240V",
+			"outputPower": "5V 1A, 5V2A & 5V 2A",
+			"height" : "125mm",
+		    "width" :  "95mm"
+		},
+		{
+			"Model": "Syska Power Pro 200",
+			"Price": 1699,
+			"Capacity": "20000 mah",
+			"SuitableDevice": "Mobile",
+			"powerSupply": "AC 100-240V",
+			"outputPower": "5V 1A, 5V2A & 5V 2A",
+			"height" : "135mm",
+		    "width" :  "80mm"
+		},
+		{
+			"Model": "SYSKA-POWERPRO120-BLACK SYSKA POWER PRO",
+			"Price": 2499,
+			"Capacity": "12000 mah",
+			"SuitableDevice": "Mobile",
+			"powerSupply": "AC 100-240V",
+			"outputPower": "5V 2A & 5V 2A",
+			"height" : "115mm",
+		    "width" :  "93mm"
+		}
+	]
+}

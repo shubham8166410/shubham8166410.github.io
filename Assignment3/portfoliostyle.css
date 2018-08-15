@@ -1,0 +1,249 @@
+:root {
+    font-size:18px;
+}
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+  height:100vh;
+  overflow-y:scroll;
+  overflow-x: hidden;
+  
+}
+
+/* Center website */
+.main {
+    max-width: 125vh;
+    margin: auto;
+ background-color: #FFFFFF;
+border: 10px solid lightblue;
+padding:0 0vh 0 2.5vh;
+}
+
+.para {
+    color: #2c2c2c;
+    font-family: "Istok Web", sans-serif;
+    
+}
+
+
+h1 {
+    font-size: 1rem;
+   
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+    
+}
+
+.image {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #008CBA;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  -webkit-transform:scale(0);
+  transition: .3s ease;
+}
+
+.container:hover .overlay {
+  transform: scale(1)
+}
+
+.text {
+  color: white;
+  font-size:1.3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+  
+    
+}
+
+.tech{
+display: flex;
+ flex-wrap: wrap;
+margin-bottom:2vh;
+
+
+}
+.column{
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #35eea4;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    width: 25vh;
+    margin:10px 0px 0px 10px;
+
+}
+.content{
+    margin-bottom:50vh;
+    background-color: white;
+    padding: 10px;
+}
+
+
+.icon-group{
+
+
+white-space: 20;
+padding: 0 10vw 0 35vw;
+
+}
+
+
+.icon-group .icon {
+
+width: 80px;
+align-items: center;
+padding: 0 2vw 0 0;
+
+    
+    
+    
+   
+}
+.imgchange
+{
+  width: 25vh;
+  margin-left: 50%;
+  border-radius: 50vh;
+}
+
+
+.content.port-img{
+
+
+
+}
+
+
+.image-fluid{
+
+width:25vh;
+margin-left:50%;
+border-radius:50vh;
+
+}
+
+
+@media only screen and (max-width: 725px) {
+    
+.icon-group{
+
+white-space: 20;
+	padding: 0 26vw;
+
+}   
+
+
+
+    
+.icon-group .icon{
+
+
+width: 2.5rem;
+	align-items: center;
+	padding: 0 1vw 0 1vw;
+
+}
+
+
+
+.image-fluid{
+
+display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+}
+
+@media only screen and (min-width: 484px;) {
+    
+  
+   
+
+.para {
+    font-size: 4em;
+  }
+
+
+.content.port-img{
+
+display: flex;
+justify-content: flex-start;
+flex-direction: wrap;
+margin-left:-50vh;
+font-size:10em;
+
+}
+
+.some{
+
+font-size:4em;
+}
+
+.icon-group{
+
+white-space: 20;
+	padding: 0 1vw;
+
+}   
+
+
+
+    
+.icon-group .icon{
+
+
+width: 1.5rem;
+	align-items: center;
+	padding: 0 1vw 0 1vw;
+
+}
+
+.image-fluid{
+
+display: block;
+  width: 100%;
+  height: auto;
+  
+}
+
+.imgchange
+{
+  width: 15vh;
+margin-left: 20%;
+  border-radius: 10%;
+}
+
+}
+

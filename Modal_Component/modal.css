@@ -1,0 +1,65 @@
+.root {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	height:600px;
+	flex-wrap: wrap;
+	background-color: black;
+}
+
+.parent {
+	background: white;
+	border-style: solid;
+	border-radius: 5px;
+	border-color: lightgrey;
+	border-width: 1px;
+	width:40%;
+	height: 30%;
+	font-family: sans-serif;
+}
+
+.h3 {
+	width: 70%;
+}
+
+.cross{
+	background-color: white;
+	color: red;
+	border-color: white;
+	border-style: solid;
+	font-size: 24px;
+}
+.buttons {
+	height: 40px;
+	color: white;
+	border-radius: 5px;
+	border-style: solid;
+	font-size: 15px;
+	margin-right: 7px;
+}
+.item1 {
+	width: 70px;
+	background-color: darkgrey;
+	border-color: darkgrey;
+}
+
+.item2 {
+	width: 120px;
+	background-color: green;
+	border-color: green;
+}
+
+/*use media queries to change the layout*/
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .parent {
+        width: 60%;
+        height: 32%;
+    }
+}
+@media screen and (max-width: 480px) {
+    .parent {
+        width: 90%;
+        height: 35%
+    }
+    
+}
