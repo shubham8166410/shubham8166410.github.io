@@ -1,0 +1,356 @@
+/* --------------------------Global settings ------------------*/
+body{
+	background:rgba(144, 12, 63, 0.1);	
+	height:100%;
+	font-size:16px;
+}
+.container{
+	width:100%;		
+	color:#333;	
+}
+.btn{
+	background:#501F3A;
+	color:#FFF;
+}
+h3{
+	color: #fff;
+	padding-bottom:5px;
+}
+/* ---------------header   : CSS settings ------------------*/
+#header{
+	background:rgb(77, 77, 51);
+	color:white;
+	padding-bottom:20px;
+	padding-top:20px;
+}
+#logo{ /* ---imdb log ---*/
+	border:2px solid black;
+	color:rgb(255, 255, 0);
+	margin-left:20px;
+	margin-bottom:20px;
+	border-radius:5px;
+	font-size:2.0rem;
+	font-weight:bold;
+	padding:2px;
+}
+/*----------------------------------Search bar : CSS settings------------------------*/
+#movieTitle{ /* split  input boxes */
+	width:50%;
+}
+#movieYear{  /* split input boxes */
+	width:50%;	
+}
+/* ------------------------------below header - navbar  settings ------------------*/
+#nav{ /* container element of nav  */
+	background:black;
+}
+#top-ul{ 
+	margin-bottom:0px;
+	height:35px;
+	padding-top:5px;
+}
+#top-ul > li {
+	display:inline;
+	margin-left:8%;	
+}
+#top-ul > li > a{
+	color:#aaa;
+	cursor:pointer;
+	font-weight:bold;
+	padding:0px 10px;
+	padding-bottom:10px;
+}
+#top-ul> li > a:hover{
+	border-bottom:5px solid #DA7B93;
+	color:white;
+	text-decoration:none;	
+}
+/* ---------------Display Area related CSS  settings ------------------*/
+#displayArea{
+	background:rgb(230, 184, 0);	
+	width:100%;
+	height:auto;
+	padding:20px 0px;
+}
+/* --------------Back button related CSS   settings ------------------*/
+#btnHolder{
+	text-align:center;
+	margin-top:20px;
+}
+.backBtn{
+	background:rgb(144, 12, 63);
+	color:#FFF;
+	font-weight:bold;	
+	padding:8px 16px;
+	border:none;
+	border-radius:5px;
+	cursor:pointer;
+}
+.backBtn:hover{
+	text-decoration:none;
+	color:white;
+	background:#2E151B;
+	padding:10px 20px; /* to increase size of button and font */
+	font-size:1.5rem;
+}
+/* ---------------footer related CSS  settings ------------------*/
+#footer{
+	padding-top:20px;
+	background:rgb(77, 77, 51);
+	color:white;
+	border-bottom:10px solid rgba(144, 12, 63, 0.5);	
+}
+#footer-ul{
+	background:rgb(77, 77, 51);
+	list-style-type:none; /* to remove default bullet */	
+}
+#footer-ul li{
+	display:block; /* to keep one link in one line */
+	line-height:30px;
+	font-weight:bold;
+	margin-left:20%;
+}
+#footer-ul li a{
+	color:#aaa;
+	text-decoration:none;
+}
+#footer-ul li a:hover{
+	color:#fff;	
+}
+/* ---------------------------------displayArea image row settings -----------------------------------------------*/
+/* -----------------------------------------page as per title or title and year - CSS settings ------------------*/
+.box{	
+	margin-bottom:10px;	
+}
+.img-box{	
+	height:400px;
+	width:250px;	
+	text-align:center;
+	margin:0 auto;		
+}
+.img-box:hover{	
+	box-shadow: 0px 4px 5px #2E151B, 
+        -5px 4px 8px #2E151B, 5px 4px 8px #2E151B;
+	cursor:pointer;
+}
+.img-box img{
+	max-width:100%;
+	height:280px;
+	width:250px;	
+}
+.input-group{
+	margin-top:20px;
+}
+.titleBox{ /* ---holding details of movie-----*/
+	height:120px;	
+	width:100%;
+	background:white;
+	color:#777;
+	padding-top:20px;	
+}
+.titleBox a{
+	text-decoration:none;
+	color:#777;	
+	width:100%; /* ---spread upto full width-----*/
+	height:100%;
+}
+.titleBox a:hover{
+	color:#fff; 
+	font-weight:bold;
+}
+.titleBox:hover{
+	background-color:rgba(0, 0, 0, 0.9);	
+	text-decoration:none;
+	color:white;
+}
+/* ---------------page as per id - CSS settings ------------------*/
+.posterBox { /* ---box of image in id page-----*/
+	margin-top:20px;
+	text-align:center;
+}
+.poster{ /*---image of  movie in id page : making responsive-----*/
+	max-width:300px;
+	height:450px;
+	width:100%;	
+}
+.content-box{  /* ---content of  movie in id page-----*/
+	margin-top:20px;
+	font-size:1.25rem;
+	font-family:Georgia, sans-serif;
+	background:white;	
+	margin:20px auto;
+	padding:3%;
+}
+.content-heading{ /* ----header of content of id page----*/
+	font-size:3.0rem;
+	font-weight:bold;
+	color:#2E151B;
+}
+.rating{ /* ---rating for movie-----*/
+	color:yellow;
+	background:black;
+	padding:5px;
+	border-radius:5px;
+	float:right  !important ;
+	font-size:2.0rem;
+	margin-right:20px;
+	font-weight:bold;
+}
+.plot{ /* ---class for story of movie-----*/
+	font-size:1.5rem;
+}
+/* ---------------modal display messages : CSS settings ------------------*/
+#modalArea{
+	width:100%;
+	height:100%;
+	background:rgba(100, 40, 40, 0.5);
+	position:fixed; 
+	top:0;
+	left:0;
+	z-index:1000; /* ----modalArea to be shown  over other webpage -----*/
+	display:none; /* ----keeping hidden initially -----*/
+}
+.myModal{
+	width:33%;
+	height:auto;
+	margin:10vh auto; /* ----positioning in middla -----*/
+	background:white;
+	color:black;
+	border-radius:10px;
+	z-index:9000; /* ----modal to be shown  over modalArea -----*/
+	display:none; /* ----keeping hidden initially -----*/
+}
+.modalHeader{
+	text-align:center;
+	font-size:1.25rem;
+	font-weight:bold;
+	border-bottom:1px solid #aaa;
+	padding-top:2.0rem;
+	padding-bottom:2.0rem;
+	width:100%;
+	background:rgb(144, 12, 63);
+	color:white;
+}
+.modalBody{
+	text-align:center;
+	padding-top:2.0rem;
+	padding-bottom:2.0rem;
+	width:100%;
+	font-size:1.2rem;
+}
+.modalFooter{
+	text-align:center;
+	border-top:1px solid #aaa;
+	padding-top:2.0rem;
+	padding-bottom:2.0rem;
+	width:100%;	
+}
+
+/* ----------------------------------------------------------------------------------------------*/
+					/* ---------------media   settings ------------------*/
+/* ----------------------------------------------------------------------------------------------*/
+
+/* -----for small screen---------*/
+@media screen and (min-width:769px) and   (max-width:990px){	
+/* -----page shrinks : give small space to things---------*/
+	#top-ul > li {	
+		margin-left:5%;
+		width:9%;
+	}	
+}
+
+/* -----for extra-small screen---------*/
+@media screen and (min-width:401px) and  (max-width:768px){
+/* -----page shrinks : give small space to things---------*/
+	.dropdown-toggle{
+		width:50px;
+	}
+	#search_concept{
+		display:none;
+	}
+	#nav{ /* to create space */
+		margin-left:0px !important;
+		padding-left:0px  !important;
+		margin-right:0px !important;
+		padding-right:0px !important;	
+	}
+	#top-ul > li {		
+		margin-left:3%;		
+	}
+	#top-ul > li > a{		
+		padding:0px 0px 10px 3px;
+		font-size:12px;
+	}
+	h3{
+		font-size:18px;
+	}
+	.myModal{
+		width:50% !important;
+		font-size:0.9rem;
+	}
+	.img-box{		
+		width:200px;			
+	}
+	.img-box img{
+		width:200px;
+	}
+	#footer-ul li{	
+		margin-left:5%;
+		font-size:0.9rem;
+	}
+	
+}
+
+/* some changes enforced for screen 300px to 400px  */
+@media screen and (min-width:300px) and  (max-width:400px){	
+	.dropdown-toggle{
+		width:50px !important; 
+	}
+	#search_concept{
+		display:none;
+	}
+	/* to create space */
+	#nav{
+		margin-left:0px !important;
+		padding-left:0px  !important;
+		margin-right:0px !important;
+		padding-right:0px !important;	
+	}
+	#top-ul{
+		margin-left:0px !important;
+		padding-left:0px !important;
+	}
+	#top-ul > li {		
+		margin-left:0px !important;
+	}
+	#top-ul > li > a{		
+		font-size:0.9rem !important;
+		color:white;
+	}
+	h3{
+		font-size:12px;
+	}
+	.myModal{
+		width:60% !important;
+		font-size:0.9rem;
+	}
+	.img-box{		
+		width:200px;			
+	}
+	.img-box img{
+		width:200px;
+	}
+	#footer-ul li{	
+		margin-left:5%;
+		font-size:0.9rem;
+	}
+	.content-heading {
+		font-size:24px;
+	}
+	.rating{
+		font-size:1.0rem;
+	}
+	
+}
+
+/* ------------------------------------------------end of CSS settings ---------------------------------------*/
